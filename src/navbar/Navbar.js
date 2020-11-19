@@ -4,7 +4,7 @@ import './Navbar.css'
 export default function Navbar() {
     return (
         <div className="Navbar">
-            <h1>hey danie bakes</h1>
+            <h1 className="Navbar-title">hey danie bakes</h1>
             <div className="Navbar-dropdown">
                 <button className="Navbar-button">RECIPES</button>
                     <div className="Navbar-dropdown-content">
