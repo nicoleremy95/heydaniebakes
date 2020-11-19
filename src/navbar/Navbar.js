@@ -6,24 +6,24 @@ export default function Navbar() {
         <div className="Navbar">
             <h1>hey danie bakes</h1>
             <div className="Navbar-dropdown">
-                <span>RECIPIES</span>
+                <button className="Navbar-button">RECIPES</button>
                     <div className="Navbar-dropdown-content">
-                        <p>RECORD RECIPE</p>
-                        <p>RATE RECIPE</p>
+                        <a href="#">RECORD RECIPE</a>
+                        <a href="#">RATE RECIPE</a>
                     </div>
             </div>
             <div className="Navbar-dropdown">
-                <span>TO DOS</span>
+                <button className="Navbar-button">TO DOS</button>
                     <div className="Navbar-dropdown-content">
-                        <p>TO DO E</p>
-                        <p>TO DO</p>
+                        <a href="#">TO DO E</a>
+                        <a href="#">TO DO</a>
                     </div>
             </div>
             <div className="Navbar-dropdown">
-                <span>SPONSORSHIPS</span>
+                <button className="Navbar-button">SPONSORSHIPS</button>
                     <div className="Navbar-dropdown-content">
-                        <p>SPONSORSHIPE</p>
-                        <p>SPONSHORSHIP</p>
+                        <a href="#">SPONSORSHIP</a>
+                        <a href="#">SPONSORSHIP</a>
                     </div>
             </div>
         </div>

@@ -1,18 +1,44 @@
+.Navbar{
+}
+
 .Navbar-dropdown {
     /* position: relative; */
     display: inline-block;
-  }
+    margin: 20px;
+}
+
+.Navbar-button{
+    background-color: grey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
 
 .Navbar-dropdown-content {
-display: none;
-position: absolute;
-background-color: #f9f9f9;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-padding: 12px 16px;
-z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
 }
+
+.Navbar-dropdown-content a{
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.Navbar-dropdown-content a:hover {background-color: #f1f1f1}
 
 .Navbar-dropdown:hover .Navbar-dropdown-content {
 display: block;
 }
+
+
