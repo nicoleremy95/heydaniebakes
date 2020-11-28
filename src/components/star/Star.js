@@ -9,9 +9,17 @@ export default function Star() {
         handleClick,
         isFilled
     })
+    
     return (
-        <div className="Star">
-            
-        </div>
+        <span
+            className="Star"
+            style={{ color }}
+            onMouseEnter={() => handleHover(value)}
+            onMouseLeave={() => handleHoverLeave(value)}
+            onClick={() => handleClick(value)}
+            >
+            {isFilled ? "★" : "☆"}
+        </span>
+
     )
 }
