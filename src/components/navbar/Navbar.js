@@ -11,21 +11,21 @@ export default function Navbar() {
                         <button className="Navbar-button">RECIPES</button>
                             <div className="Navbar-dropdown-content">
                                 <a href="/recordrecipies">RECORD RECIPE</a>
-                                <a href="#">RATE RECIPE</a>
+                                <a href="/raterecipies">RATE RECIPE</a>
                             </div>
                     </div>
                     <div className="Navbar-dropdown">
                         <button className="Navbar-button">TO DOS</button>
                             <div className="Navbar-dropdown-content">
-                                <a href="#">TO DO</a>
-                                <a href="#">TO DO</a>
+                                <a href="/todo">TO DO</a>
+                                <a href="/todo">TO DO</a>
                             </div>
                     </div>
                     <div className="Navbar-dropdown">
                         <button className="Navbar-button">SPONSORSHIPS</button>
                             <div className="Navbar-dropdown-content">
-                                <a href="#">SPONSORSHIP</a>
-                                <a href="#">SPONSORSHIP</a>
+                                <a href="/sponsorships">SPONSORSHIP</a>
+                                <a href="/sponsorships">SPONSORSHIP</a>
                             </div>
                     </div>
                     <div className="Navbar-dropdown">
