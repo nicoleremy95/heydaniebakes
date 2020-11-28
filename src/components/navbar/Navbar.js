@@ -8,6 +8,15 @@ export default function Navbar() {
             <a href="/"><img src={logo} className="Navbar-title"/></a>
                 <div className="Navbar-actions">
                     <div className="Navbar-dropdown">
+                        <a 
+                            href="/" 
+                            className="Navbar-home"
+                        >
+                            <img 
+                                src="https://img.icons8.com/small/24/000000/home.png"/>
+                        </a>
+                    </div>
+                    <div className="Navbar-dropdown">
                         <button className="Navbar-button">RECIPES</button>
                             <div className="Navbar-dropdown-content">
                                 <a href="/recordrecipies">RECORD RECIPE</a>
