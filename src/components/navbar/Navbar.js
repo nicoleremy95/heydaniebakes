@@ -1,10 +1,11 @@
 import React from 'react'
+import logo from '../images/logo.png'
 import './Navbar.css'
 
 export default function Navbar() {
     return (
         <div className="Navbar">
-            <h1 className="Navbar-title">hey danie bakes</h1>
+            <a href="/"><img src={logo} className="Navbar-title"/></a>
                 <div className="Navbar-actions">
                     <div className="Navbar-dropdown">
                         <button className="Navbar-button">RECIPES</button>

@@ -4,6 +4,7 @@
 .Navbar-title{
     float: left;
     margin: 20px;
+    width: 200px;
 }
 
 .Navbar-actions{
