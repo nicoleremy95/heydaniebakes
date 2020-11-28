@@ -31,8 +31,8 @@ export default function Navbar() {
                     <div className="Navbar-dropdown">
                         <button className="Navbar-button">CONTENT</button>
                             <div className="Navbar-dropdown-content">
-                                <a href="#">PHOTOS</a>
-                                <a href="#">VIDEOS</a>
+                                <a href="/photos">PHOTOS</a>
+                                <a href="/videos">VIDEOS</a>
                             </div>
                     </div>
                 </div>
